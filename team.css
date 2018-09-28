@@ -1,0 +1,52 @@
+div {
+	margin-bottom: 10px;	
+}
+
+body {
+	background-color: black;
+	font-weight: lighter;
+	background: url(222.jpg) fixed;
+	background-size: cover;
+}
+
+#header1 {
+		background: url(222.jpg) fixed;
+		background-size: cover;
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+#header1 h1 {
+	text-shadow: 3px 3px 4px black, 0 0 30px black, 0 0 10px black;
+	font-size: 75px;
+}
+
+#header1 p {
+	text-shadow: 3px 3px 4px black, 0 0 30px black, 0 0 10px black;
+	font-size: 20px;
+}
+
+
+
+.img {
+	border:2px solid;
+}
+
+.img:hover {
+	transition: 1s;
+	width:280px ; 
+	height:280px;
+	box-shadow: 5px 5px 6px white, 0 0 40px black, 0 0 20px white;
+}
+
+.logo {
+	margin-bottom: -5%;
+	height: 75px fixed;
+	width: 75px fixed;
+}
+
+.logo:hover {
+	transition: 1s;
+	height: 80px;
+	width: 80px;
+}
